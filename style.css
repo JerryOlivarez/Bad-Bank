@@ -1,0 +1,48 @@
+body {background: "Money packs.jpg"  ;
+  background-color: rgb(47, 48, 48);
+  background-size:cover;
+}
+
+.navbar-brand {
+padding: 80px;
+}
+
+#navbarNav ul {
+border-radius: 10px;
+overflow: hidden;
+}
+#navbarNav li {
+float: left;
+width: 90%;
+}
+#nav-link li:hover a::before {
+right: 0;
+left: 0;
+}
+#navbarNav a {
+color: #ffffff;
+font-size: 20px;
+text-decoration: none;
+text-align: center;
+padding: 60px 100;
+display: block;
+position: relative;
+transition: all 0.3s ease;
+}
+#navbarNav a:hover {
+color: #af0d0d;
+}
+#navbarNav a::before {
+content: "";
+transition: all 0.4s ease-in-out;
+position: absolute;
+right: 50%;
+left: 50%;
+bottom: 0;
+height: 2px;
+background-color: #f3e141;
+}
+#navbarNav a:hover::before {
+right: 0;
+left: 0;
+}
